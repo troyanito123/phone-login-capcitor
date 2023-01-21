@@ -68,3 +68,8 @@ testem.log
 Thumbs.db
 
 /android
+
+# Firebase
+.firebase
+*-debug.log
+.runtimeconfig.json
