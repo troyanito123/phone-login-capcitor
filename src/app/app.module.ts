@@ -9,7 +9,7 @@ import { AppRoutingModule } from './app-routing.module'
 import { initializeApp, provideFirebaseApp } from '@angular/fire/app'
 import { environment } from '../environments/environment'
 import { provideAuth, getAuth } from '@angular/fire/auth'
-import { provideFirestore, getFirestore } from '@angular/fire/firestore'
+import { provideFirestore, getFirestore } from '@angular/fire/firestore';
 
 @NgModule({
   declarations: [AppComponent],

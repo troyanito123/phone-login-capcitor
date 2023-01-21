@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login with phone</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+
+
+  <ion-grid fixed>
+    <ion-row>
+      <ion-col size="12">
+        <ion-item>
+          <ion-label>Phone Nomber</ion-label>
+          <ion-input [formControl]="phoneInput" type="text" placeholder="phone number"></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col size="12">
+        <ion-button (click)="signInByPhone()" expand="block" fill="solid" shape="round">
+          Login by phone
+        </ion-button>
+      </ion-col>
+      <ion-col size="12" id="sign-in-button">
+        
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12">
+        <ion-item>
+          <ion-label>Codigo</ion-label>
+          <ion-input type="text" placeholder="codigo" [formControl]="codeInput"></ion-input>
+        </ion-item>
+      </ion-col>
+      <ion-col size="12">
+        <ion-button (click)="confirm()" expand="block" fill="solid" shape="round">
+          Confirm
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+</ion-content>
