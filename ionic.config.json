@@ -1,0 +1,7 @@
+{
+  "name": "phone-login",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
